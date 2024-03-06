@@ -6,8 +6,6 @@ const Temperatura = () => {
         const fahrenheit = (kelvin - 273)*9/5 + 32
         return {celsius, fahrenheit}
     }
-    const c = 32
-    const f = 77
     const k = 45
     const {celsius, fahrenheit} = kelvin(k)
     return (
